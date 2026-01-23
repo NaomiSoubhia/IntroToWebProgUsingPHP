@@ -1,7 +1,6 @@
 <?php
 declare(strict_types=1);
-//database connection
-require "connect.php";
+
 /*4.) Using your local server (XAMPP, MAMP, WAMP), create a database. 
 Create a file called connect.php and use PDO to connect to your database. 
 Remember to include try/catch blocks to handle connection errors. 
