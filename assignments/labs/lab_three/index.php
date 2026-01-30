@@ -17,10 +17,7 @@
             </p>
         </fieldset>
 
-        <p>
-            <button type="submit">Send</button>
-        </p>
-
+        <button type="submit">Send</button>
     </form>
 
 
