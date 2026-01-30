@@ -1,7 +1,7 @@
 <?php require "includes/header.php" ?>
 <main>
     <h2> Contact us!</h2>
-    <form action="process.php" method="post">
+    <form action="contact.php" method="post">
         <fieldset>
             <legend>Contact Information</legend>
             <label for="first_name">First name</label>

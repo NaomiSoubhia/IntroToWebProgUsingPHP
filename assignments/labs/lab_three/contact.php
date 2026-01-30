@@ -28,6 +28,23 @@ if ($message === null || $message === '') {
     $errors[] = "Message should not be empty or null";
 }
 
-
-
+//echo errors
+if (!empty($errors)) {
+    foreach ($errors as $error) : ?>
+        <li><?php echo $error; ?></li>
+<?php endforeach;
+exit;
+}
 ?>
+
+<main>
+
+    <?php echo "<h2>Thank for your message" . $firstname . "!</h2>" ?>
+
+    <h3>Message informations:</h3>
+    <?php echo "<p>Name: " . $firstname ." ". $lastname . "</p>" ?>
+    <?php echo "<p>Email: " . $email ."</p>" ?>
+    <?php echo "<p>Message: " . $message ."</p>" ?>
+</main>
+
+<?php require "includes/footer.php" ?>
