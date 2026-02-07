@@ -1,4 +1,6 @@
 <?php require "includes/header.php";
+//require database connection script
+
 
 // access the form data and then echo on the page in a confirmation message
 // $firstname = $_POST['first_name'];
